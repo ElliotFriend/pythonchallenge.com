@@ -1,5 +1,5 @@
 # This URL: http://www.pythonchallenge.com/pc/def/peak.html
-# Next URL: http://www.pythonchallenge.com/forums/viewforum.php?f=1
+# Next URL: http://www.pythonchallenge.com/pc/def/channel.html
 
 import urllib,pickle
 
