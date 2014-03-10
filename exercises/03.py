@@ -5,7 +5,7 @@ import re
 
 answer = ""
 
-text = open("/home/elliot/GitHub/pythonchallenge.com/data/03.txt", "r")
+text = open("../data/03.txt", "r")
 for i in re.findall('[a-z][A-Z]{3}[a-z][A-Z]{3}[a-z]', text.read()):
     answer += i[len(i) // 2]
 
