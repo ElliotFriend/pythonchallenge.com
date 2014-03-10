@@ -3,7 +3,7 @@
 
 import re, Image
 
-im = Image.open('/home/elliot/GitHub/pythonchallenge.com/data/07.png')
+im = Image.open('../data/07.png')
 row = [im.getpixel((x, 45)) for x in range(0, im.size[0], 7)]
 ords = [r for r, g, b, a in row if r == g == b]
 

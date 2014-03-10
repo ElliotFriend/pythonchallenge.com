@@ -4,7 +4,7 @@
 
 import zipfile
 
-zfile = zipfile.ZipFile(open('/home/elliot/GitHub/pythonchallenge.com/data/06.zip', 'r'))
+zfile = zipfile.ZipFile(open('../data/06.zip', 'r'))
 next_nothing = "Next nothing is "
 nothing = "90052"
 suffix = ".txt"
